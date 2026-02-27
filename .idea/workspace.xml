@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7516113-0729-4190-91ad-3a12e6c9d8b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SecondHome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SecondHome.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task14.py" beforeDir="false" afterPath="$PROJECT_DIR$/task14.py" afterDir="false" />
     </list>
@@ -39,6 +37,7 @@
 }</component>
   <component name="ProjectId" id="3AAW81DLb2zRjnPIVDoufpIjFfW" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -58,6 +57,7 @@
     "Python.task8.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true"

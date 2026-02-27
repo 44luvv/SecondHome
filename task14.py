@@ -4,19 +4,22 @@ from random import randint
 
 def create_matrix():
     stroke = input("Введите сколько строк: ")
+    matrix = []
+
     if test.test_value(stroke):
         colons = input("Введите сколько столбцов: ")
         if test.test_value(colons):
             stroke = int(stroke)
             colons = int(colons)
             matrix = []
-            for i in range(colons):
+            for i in range(stroke):
                 new_matrix = []
-                for j in range(stroke):
+                for j in range(colons):
                     new_matrix.append(randint(0, 1))
                 matrix.append(new_matrix)
 
     return matrix
+
 
 def out(matrix):
     for i in range(len(matrix)):
@@ -26,8 +29,19 @@ def out(matrix):
 
     return matrix
 
+
 def add_value(matrix):
-    print("")
+    summ = 0
+    for i in range(len(matrix)):
+        for j in range(len(matrix[0])):
+            summ += matrix[i][j]
+        if summ % 2 == 0:
+            matrix[i].append(0)
+        else:
+            matrix[i].append(1)
+        summ = 0
+    return matrix
+
 
 def start():
     is_run = True

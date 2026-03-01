@@ -65,4 +65,3 @@ def start():
                 out(stroke)
         elif numm == 0:
             is_run = False
-

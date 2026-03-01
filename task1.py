@@ -36,5 +36,3 @@ def start():
         else:
             print(f"Число {find_number} не найдено в списке")
 
-
-start()
